@@ -10,7 +10,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
         parse_mode="markdown",
-        text="Hi! I am CypherCAT a super power bot for all Crypto user, made with love by CypherBOT, I can do a copy trade from influencer/wallet, snipe tokens, buy presales, place limit orders, swap tokens and many more. You can ask me for the current price of any crypto by typing:\n\n"
+        text="Hi! I am CypherCAT, a super power bot for all Crypto user. Made with love by CypherBOT. I can do a copy trade from influencer/wallet, snipe tokens, buy presales, place limit orders, swap tokens and many more. You can ask me for the current price of any crypto by typing:\n\n"
         "`/p <crypto_symbol>` \n\n"
         "For example, `/p btc` or `/cmc btc` will give you the current price of Bitcoin\n\n"
         "To display the complete list of commands, type `/help`",
